@@ -1,0 +1,170 @@
+/*header {
+  background-image: url("../IMAGE-Files/animal\ background\ page.jpg");
+}
+
+
+.national-parks{
+  padding: 10px 20px;
+  margin: 30px;
+  border-radius: 50px;
+  border: none;
+  transition: 0.5s;
+}
+
+.national-parks:hover {
+  scale: 1.2;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+}
+
+.national-parks:active {
+  scale: 0.95;
+}
+.animal-main-subsection {
+  display: flex;
+  flex-direction: row;
+  padding: 2rem;
+  gap: 2rem;
+  background-color: rgb(123, 126, 119);
+  border-radius: 10px;
+  gap: 2rem;
+
+}
+
+.animal-main-subsection-1 {
+  padding: 2rem;
+  box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.3);
+  
+  border-radius: 10px;
+
+}
+.animal-main-section-h2{
+  font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1rem;
+    margin-bottom: 1rem;
+}*/
+header {
+  display: flex;
+  background-image: url(/Image_Files/animals\ main.jpg);
+  width: 100%;
+  
+}
+.head-text{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  text-align: center;
+  font-size: 75px;
+}
+main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+h1,
+h2,h3 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+.animalsimages{
+  align-items: center;
+  margin-top: 16px;
+}
+.animals-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr ;
+  column-gap: 30px;
+  row-gap: 30px;
+  padding-top: 4rem;
+  background-color:black;
+  align-items: center;
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+
+
+}
+.leopards-sec-1{
+  text-align: center;
+}
+.animal-h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.animal-h3{
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-bottom: 2rem;
+
+}
+.yala-willppattu{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-bottom: 4rem;
+  column-gap: 30px;
+  padding-top: 3rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+  text-align: center;
+  background-color: rgb(51, 52, 52);
+  margin-left: 3rem;
+  margin-right: 3rem;
+  border-radius: 10px;
+  margin-bottom: 4rem;
+}
+.parks{
+  padding: 10px 20px;
+  margin: 30px;
+  border-radius: 50px;
+  border: none;
+  transition: 0.5s;
+  background-color: black;
+  color: rgb(51, 52, 52) ;
+}
+.parks:hover{
+  scale: 1.2;
+  cursor: pointer;
+  background-color: green;
+  color: white;
+
+}
+
+/*.Animal-main-section-h2{
+  font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 4rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    width: 100%;
+}
+.Animal-main-section-h3{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 6px;
+
+
+}
+.animal-main-headsection-h2{
+  font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 2rem;
+    margin-bottom: 2rem;
+    font-weight: 800;
+    width: 100%;
+}
+.head-text{
+  text-align: center;
+  margin-top: 15rem;
+  font-size: 75px;
+}*/

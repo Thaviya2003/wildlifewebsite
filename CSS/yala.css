@@ -1,0 +1,147 @@
+nav{
+  background: transparent;
+  backdrop-filter: blur(50px);
+  box-shadow: 0px 2px 7px rgba(66, 77, 12, 0.3);
+  position: fixed;
+  margin-top: 0;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+nav ul{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+nav ul li{
+  display: flex;
+  padding: 40px;
+
+}
+.head-text{
+  font-size: 75px;
+  color: white;
+  
+}
+
+button {
+  padding: 10px 20px;
+  background: transparent;
+  border-style: solid;
+  border-radius: 30px;
+  font-family: 'Oswald', sans-serif;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+button:hover {
+  background-color: rgb(8, 140, 19);
+  color: white;
+  border: none;
+  scale: 1.2;
+  cursor: pointer;
+}
+
+button:active {
+  scale: 0.9;
+}
+
+
+.mainsec1{
+  padding-left: 3rem;
+  padding-right: 3rem;
+  color: whitesmoke;
+  background-color: black;
+}
+.yala-h2{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+header{
+  background-image: url(../Image_Files/wilpattu\ main\ image.jpg);
+  background-attachment: fixed;
+  padding-top: 350px;
+  text-align: center;
+  align-items: center;
+  height: 800px;
+  background-size: cover;
+  background-position: center;
+}
+footer{
+  align-items: center;
+  background-color: green;
+  text-align: center;
+  padding: 32px;
+  width: 100%;
+  color: white;
+}
+.footer1 a {
+  padding: 16px;
+}
+.footer1 {
+  padding: 20px;
+}
+.footer-nav ul {
+  list-style-type: none;
+  line-height: 32px;
+}
+.footer-bottom {
+  padding: 16px;
+}
+.footer1 a i {
+  transition: 0.3s;
+}
+.footer1 a i:hover {
+  scale: 2;
+}
+.footer1 a i:active {
+  scale: 0.9;
+}
+img{
+  transition: 1s;
+}
+img:hover{
+  transform: scale(1.05);
+}
+.yala-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 25px;
+  row-gap: 25px;
+  margin-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+.yala-h2{
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+  font-weight: 800px;
+}
+.yala-image{
+  height: 100%;
+  width: 100%;
+}

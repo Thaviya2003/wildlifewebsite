@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  display: flex;
+  background-image: url(/Image_Files/furry-leopard-print-brown-xu94v1a7di1np20x.jpg);
+  width: 100%;
+}
+
+h1 {
+  display: flex;
+  width: 100%;
+  color: white;
+  font-size: 90px;
+  font-family: 'Permanent Marker', cursive;
+  text-shadow: 10px 5px 2px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  justify-content: center;
+}
+
+
+main {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+h1,
+h2 {
+  color: white;
+}
+
+p {
+  color: white;
+}
+
+.national-parks-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+ 
+ padding: 20px;
+  border-radius: 20px;
+  column-gap: 20px;
+  row-gap: 20px;
+ align-items: center;
+  text-align: center;
+  
+}
+
+.national-parks-sub-section {
+  background-color: aquamarine;
+ 
+  display: flex;
+  width: 100%;
+  padding: 3rem 3rem;
+  text-align: justify;
+  background-color: transparent;
+  box-shadow: 2px 5px 10px 2px;
+  border-radius: 20px;
+  
+}
+
+main {
+  display: flex;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+
+
+.leopards-sec-1{
+  text-align: center;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.leopards-sec-2{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+  column-gap: 30px;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+.map1{
+  width: 100%;
+  height: 100%;
+}
+.leopards-sec-3{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-top: 20px;
+  text-align: start;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  margin-top: 4rem;
+  padding-bottom: 4rem;
+  margin-left: 1rem;
+}
+.leopards-sec-3-1{
+
+  text-align: start;
+
+}
+.image1{
+  width: 100%;
+  height: 100%;
+}
+.leopard-sec-h2{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  font-weight:800 ;
+  margin-top: 2rem;
+}
+.leopard-sec-h3{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight:800 ;
+  color: whitesmoke;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
